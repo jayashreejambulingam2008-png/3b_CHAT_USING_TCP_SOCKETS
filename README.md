@@ -8,7 +8,7 @@ To write a python program for creating Chat using TCP Sockets Links.
  server
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
-
+```
 NAME: JAYASHREE J
 REGISTER NUMBER: 212225040145
 
@@ -32,7 +32,7 @@ while True:
     print("Client > ",ClientMessage) 
     msg=input("Server > ") 
     c.send(msg.encode())
-    
+```    
 ## OUPUT
 
 CLIENT:
